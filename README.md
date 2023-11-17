@@ -27,4 +27,11 @@ The six programs we've selected amount to 44 hours of video material (roughly 18
 - *2006 - Planet Earth*
 - *2015 - The Hunt*
 
-continue here
+Fig 3 shows the program life on earth
+
+![fig3](./readme-examples/fig3.png)
+
+
+Fig 4 shows the a single episode from the program life on earth: "Life in Trees"
+
+![fig4](./readme-examples/fig4.png)
