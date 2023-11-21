@@ -14,6 +14,7 @@ We hope the machine learning and AI community enjoys-, plays with- and shares th
 
 Here, we will share our initial investigations into documentary - format video enrichment. We hope to explore novel ways to gain insights into video data and advance the cause of AI-enabled video understanding for the benefit of humanity.
 
+
 ## 1. David Attenboroughs immense productivity over decades
 
 Figure 1 shows the number of major programs DA created across seven and a half decades (n=147, [csv-file](./data/da_filmography_from_wiki.csv), source: https://en.wikipedia.org/wiki/David_Attenborough_filmography). Most often he was credited as writer and presenter (47/147), followed by narrator (n=31), presenter (n=22) and narrator and presenter (n=16) (data not shown). The right hand y-axis (red color) shows the total video duration of the six programs (n=46 videos) we've selected for our initial investigation.
@@ -39,7 +40,7 @@ The six programs we've selected amount to 44 hours of video material (roughly 18
 
 Figure 3 shows the image-embeddings for the entire program "Life on Earth" (1979). Video-image-frames were resized to 224x224 pixels and feature extraction was performed on the images using the Vision Transformer (ViT) model from Hugging Face Transformers ("google/vit-base-patch16-224-in21k", see above). Then image-embeddings were subjected to t-Distributed Stochastic Neighbor Embedding (t-SNE) to identify visually coherent groupings. While time is implicitly retained as an axis (as a color code here), it is replaced with a 2D t-SNE representation to better visualize the content of image-based feature vectors (Figure 3).
 
-![fig3](https://file+.vscode-resource.vscode-cdn.net/Users/mikehemberger/Documents/vscode/darc-ai/readme-examples/fig3.png)
+![fig3](./readme-examples/fig3.png)
 
 For detailed investigations we recommmend viewing the figure as image file with all its details ([original-image](./readme-examples/image-embeddings-tsne-time-labeled-ep-12-highlighted_.jpg)).
 
@@ -52,3 +53,8 @@ We have attempted to visualize image-embeddings of multiple programs but that yi
 ## 5. Notebook and Python Files
 
 We provide [python scripts](./scripts/) to download videos from archive.org to your local machine and essentially go step-by-step through the ETL video pipeline in the jupyter notebook [darc-pipeline.ipynb](./darc-pipeline.ipynb). All our processing steps can be reproduced from there.
+
+
+## 6. Contributions
+
+Are very welcome!
