@@ -14,8 +14,6 @@ We hope the machine learning and AI community enjoys-, plays with- and shares th
 
 Here, we will share our initial investigations into documentary - format video enrichment. We hope to explore novel ways to gain insights into video data and advance the cause of AI-enabled video understanding for the benefit of humanity.
 
-Our first contribution is to address the partial inaccessibility of David Attenboroughs narration for non-english speakers. Over the course of our research on DAs work we were surprised to note that his 1979 classic "Life on Earth" (LoE) program was impossible to find as translation into our native tongue: german. To start and overcome this shortcoming, we will provide the JSON output from Azure AI Video Indexer for the entire LoE program in (native) english and AI-translated german (soon to be released). Text transcripts from the video audio channels will become available then. We believe that the output data "insights" from an enterprise grade solution will provide a decent baseline to benchmark open-source video understanding approaches.
-
 ## 1. David Attenboroughs immense productivity over decades
 
 Figure 1 shows the number of major programs DA created across seven and a half decades (n=147, [csv-file](./data/da_filmography_from_wiki.csv), source: https://en.wikipedia.org/wiki/David_Attenborough_filmography). Most often he was credited as writer and presenter (47/147), followed by narrator (n=31), presenter (n=22) and narrator and presenter (n=16) (data not shown). The right hand y-axis (red color) shows the total video duration of the six programs (n=46 videos) we've selected for our initial investigation.
